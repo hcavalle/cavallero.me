@@ -7,7 +7,7 @@
 <body>
 	<header>
 		<!--<a href="resume.pdf" target="blank"><h1 name="title" class=" title gigantic"> <span class="accentColor">h</span>arrison <span class="accentColor">cav</span>allero </h1></a> -->
-		<a href="index.php" class="logo" ><img class = "logo" src ="images/hcav-logo.png" alt="harrison cavallero"></a> 
+		<a href="index.php" class="logo" ><img class = "logo" src ="images/hcav-logo.png" alt="harrison cavallero"></a> test
 	<!--<div class="hidden" position ="relative" width="100%" align="center" style="margin-top: 30px; margin-bottom: 100px">
 		<a class="logo" href="interactiveresume.pdf"><img class = "logo"src ="images/harrisoncavallero.gif" alt="harrison cavallero"></a> 
 		
