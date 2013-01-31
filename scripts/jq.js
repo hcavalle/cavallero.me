@@ -63,8 +63,7 @@ $(document).ready(function() {
 	//});
 });
 
-$(function() {
-			$( "#accordion" ).accordion();
+$( "#accordion" ).accordion();
 });
 		
 		
