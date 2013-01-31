@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 	//$('#content-home').hide();
 	
@@ -63,10 +62,10 @@ $(document).ready(function() {
 	//});
 });
 
-$('.textbox').mouseover(function(){
+$('li .textbox').mouseover(function(){
 	$(this).addClass('boxshadow');
 });
-$('.textbox').mouseout(function(){
+$('li .textbox').mouseout(function(){
 	$(this).removeClass('boxshadow');
 });
 
