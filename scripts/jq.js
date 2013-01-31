@@ -63,6 +63,13 @@ $(document).ready(function() {
 	//});
 });
 
+$('.textbox').mouseover(function(){
+	$(this).addClass('boxshadow');
+});
+$('.textbox').mouseout(function(){
+	$(this).removeClass('boxshadow');
+});
+
 $('#accordion').accordion({collapsible: true, active: false});
 		
 		
