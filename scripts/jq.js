@@ -62,10 +62,10 @@ $(document).ready(function() {
 	//});
 });
 
-$('li .textbox').mouseover(function(){
+$('li.textbox').mouseover(function(){
 	$(this).addClass('boxshadow');
 });
-$('li .textbox').mouseout(function(){
+$('li.textbox').mouseout(function(){
 	$(this).removeClass('boxshadow');
 });
 
