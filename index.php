@@ -7,7 +7,7 @@
 <body>
 	<header>
 		<!--<a href="resume.pdf" target="blank"><h1 name="title" class=" title gigantic"> <span class="accentColor">h</span>arrison <span class="accentColor">cav</span>allero </h1></a> -->
-		<a href="index.php" class="logo" ><img class = "logo" src ="images/hcav-logo.png" alt="harrison cavallero"></a> 
+		<a href="index.php" class="logo" ><img id = "logo" src ="images/hcav-logo.png" alt="harrison cavallero"></a> 
 	<!--<div class="hidden" position ="relative" width="100%" align="center" style="margin-top: 30px; margin-bottom: 100px">
 		<a class="logo" href="interactiveresume.pdf"><img class = "logo"src ="images/harrisoncavallero.gif" alt="harrison cavallero"></a> 
 		
@@ -26,7 +26,7 @@
 					<div id="content-home" class="content">
 						<h2 class="large" ><span class="accentColor">{ </span>social good<span class="accentColor"> }</span> </h2>
 						<h2>through web development and technology </h2>
-						<h3>that's what i'm about</h3>
+						<h5>that's what i'm about</h5>
 						<p> more to come, this is a work in progress</p>
 						<div class="innercontent">
 							<div class="relwrapper">
@@ -39,12 +39,11 @@
 			</div> -->
 			<div id="recentwork" class="content">
 				<nav class=""><h2 class ="large dashedbottom">recent work</h2></nav>
-				<ol class="textbox" style="width:100%;">
-				
+				<ol class="textbox" >
 				<li class="textbox">
 					<a href="http://www.picturehealing.com/mobilesite/index.html" target="_blank">
 						<figure>
-							<img src="images/ph_logo.png" alt="Picturehealing - Mobile site" width="250px" height="50px">
+							<img src="images/ph_logo.png" alt="Picturehealing - Mobile site" width="230px" height="40px">
 							<figcaption>
 								picture healing mobile site
 							</figcaption>
@@ -71,7 +70,7 @@
 				<li class="textbox">
 					<a href="http://www.solturalanguages.com" target="_blank">
 						<figure>
-							<img src="images/sl_logo.png" alt="Soltura Languages" width="300px" height="50px">
+							<img src="images/sl_logo.png" alt="Soltura Languages" width="250px" height="40px">
 							<figcaption>
 								Soltura Languages
 							</figcaption>
@@ -100,7 +99,7 @@
 				<li class="textbox">
 					<a href="http://www.socent.la" target="_blank" >
 						<figure>
-							<img src="images/se_logo.png" alt="SocEnt.LA - Wordpress" width="170px" height="50px">
+							<img src="images/se_logo.png" alt="SocEnt.LA - Wordpress" width="150px" height="40px">
 							<figcaption>
 								SocEnt.LA - Wordpress
 							</figcaption>
