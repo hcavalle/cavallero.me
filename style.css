@@ -204,9 +204,9 @@ nav.darknav a.active{
 	border-right: 1px solid #3c3c3c;*/
 }
 #content-home{
-	background: url("images/linedpaper.png") repeat;
+	background: ;/*url("images/linedpaper.png") repeat;*/
 	overflow : hidden; 
-	box-shadow: 0px 3px 3px rgba(0, 0, 0, .7);
+	/*box-shadow: 0px 3px 3px rgba(0, 0, 0, .7);*/
 }
 #content p{
 	font-size: 22px;
@@ -246,9 +246,12 @@ nav.darknav a.active{
 .footer a, .footer span{border-bottom:dashed 1px gray;}
 .footer{font-size: 14px; text-align:left;}
 .footer span{margin-left: 0;}
-.footer ul {position:relative; display:inline-block; vertical-align:bottom; margin-top:25px; margin-left: 500px;}
-.footer li {display:inline-block; list-style-type:none; margin-left: 40px; } /*float:right; position: relative; margin-left:40px;}*/
-.footer span{width: 100px;}
+.footer.innerwrapper{
+  width: 1024px;
+}
+.footer ul {position:relative; display:inline-block; vertical-align:bottom; margin-top:25px; margin-left: 599px;}
+.footer li {display:inline-block; list-style-type:none; margin-left: 20px; } /*float:right; position: relative; margin-left:40px;}*/
+.footer span{width: 80px;}
 
 /*RECENT WORK */
 dt, dd, #recentwork li, #recentwork ol {display: inline-block; list-style-type:none; color:black;}
@@ -330,7 +333,9 @@ h3.frontend{
 	padding-right: 10px;
 	text-align:center;	
 }
-	
+#cf-logo{
+  background-color: #323232;
+}	
 #skillstext-bg{
 	position:relative;
 	text-align:left;

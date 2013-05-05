@@ -22,7 +22,7 @@
 				</div>
 			</nav>
 			
-			<div class="relwrapper boxshadow">
+			<div class="relwrapper">
 					<div id="content-home" class="content">
 						<h2 class="large" ><span class="accentColor">{ </span>social good<span class="accentColor"> }</span> </h2>
 						<h2>through web development and technology </h2>
@@ -40,6 +40,35 @@
 			<div id="recentwork" class="content">
 				<nav class=""><h2 class ="large dashedbottom">recent work</h2></nav>
 				<ol class="textbox" >
+				<li class="textbox">
+					<a href="http://www.crowdfunder.com" target="_blank">
+						<figure>
+							<img id="cf-logo" src="images/cf-logo.png" alt="Crowdfunder" width="150px" height="20px">
+							<div style="height: 15px"></div>
+							<figcaption>
+								Crowdfunder.com
+							</figcaption>
+							<div style="height: 5px"></div>
+						</figure>
+						<dl>
+							<dt>role:</dt>
+							
+							<dd>full stack developer</dd>
+							
+						</dl>
+						<dl>
+							<dt>code:</dt>
+							
+							<dd>custom pHp MVC</dd>
+							
+							<dd>jQuery/JS</dd>
+							
+							<dd>MySql & MongoDB</dd>
+							
+						</dl>
+					</a>
+				</li>
+				
 				<li class="textbox">
 					<a href="http://www.picturehealing.com/mobilesite/index.html" target="_blank">
 						<figure>
@@ -96,7 +125,7 @@
 					</a>
 				</li>
 				
-				<li class="textbox">
+				<!--<li class="textbox">
 					<a href="http://www.socent.la" target="_blank" >
 						<figure>
 							<img src="images/se_logo.png" alt="SocEnt.LA - Wordpress" width="150px" height="40px">
@@ -121,7 +150,7 @@
 							
 						</dl>
 					</a>
-				</li>
+				</li>-->
 				
 			</ol>
 				<!--
@@ -139,7 +168,11 @@
 		<nav class="footer innerwrapper">
 			<span>designed by hcav</span>
 			<ul>
-				<li ><a class= href= "http://www.linkedin.com/in/harrisoncavallero">Linkedin</a></li>
+				<li ><a href= "https://github.com/hcavalle" target="_blank">github</a></li>
+				<li ><a href= "https://www.crowdfunder.com/u/9791" target="_blank">crowdfunder</a></li>
+				<li ><a href= "http://www.linkedin.com/in/harrisoncavallero" target="_blank">linkedin</a></li>
+				<li ><a href="HarrisonCavalleroWebDevResume.pdf" target="_blank">resume.</a></li>
+				
 				<!--<li><a href="http://about.me/cavalleroharrison">about.me</a></li>-->
 			</ul>
 		</nav>
