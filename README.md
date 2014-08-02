@@ -1,4 +1,3 @@
-# Your [DocPad](http://docpad.org) Project
+# [cavallero.me](http://www.cavallero.me)
 
-## License
-Copyright &copy; 2014+ All rights reserved.
+personal site for harrison cavallero
