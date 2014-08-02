@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!-- <link rel="stylesheet" href="style.css">
+ 	<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+	<meta http-equiv="Content-Language" content="en-us">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+	<meta name="description" Content=<%= @document.description %>  </meta>
+	<meta name="keywords" Content=<%= @document.description %> </meta>
+	<title><%= @document.title %> | Harrison Cavallero </title>
+
+	<%- @getBlock("meta").toHTML() %>
+    <%- @getBlock("styles").add(["/styles/style.css"]).toHTML() %>
+    
+
+</head>
+
+<body>
+	<header>
+		<!--<a href="resume.pdf" target="blank"><h1 name="title" class=" title gigantic"> <span class="accentColor">h</span>arrison <span class="accentColor">cav</span>allero </h1></a> -->
+		<a href="index.html" class="logo" ><img id = "logo" src ="/images/hcav-logo.png" alt="harrison cavallero"></a> 
+	<!--<div class="hidden" position ="relative" width="100%" align="center" style="margin-top: 30px; margin-bottom: 100px">
+		<a class="logo" href="interactiveresume.pdf"><img class = "logo"src ="images/harrisoncavallero.gif" alt="harrison cavallero"></a> 
+		
+		<p class="comingsoon">in progress</p> 
+	</div>-->
+	
+	</header>
+	<div class="wrapper">
+			<nav class="darknav boxshadow">
+				<div class="innerwrapper">
+					<% for page in @getCollection("html").findAll({isPage:true}).toJSON(): %>
+						<h3 class = "Georgia "><a class ="<%= if page.id is @document.id then 'active' else 'inactive' %>" id="<%= page.title %>Title" href="<%= page.url %>"><%= page.title %></a></h3> 
+					<% end %>
+					<h3 class=" Georgia"> <a href="/harrison_cavallero_resume.pdf" target="_blank">resume</a></h3>
+				</div>
+			</nav>
+			<div class="relwrapper">
+				<div id="content-home" class="content">
+			<!-- <h1><%= @document.title %></h1> -->
+    				<%- @content %>
+    				<%- @getBlock("scripts").toHTML() %>
+    			</div>
+    		</div>
+    		
+    		
+	</div>			
+			
+	<div id="footer"> <!-- position ="relative" width="100%" align="center" style="margin-top: 100px; margin-bottom: 100px"> -->
+		<div class="boxshadow" id="footerAccent">
+				<!--top of page jquery
+					http://webdesignerwall.com/tutorials/animated-scroll-to-top -->
+					
+				<div id="top"><a href "#">Test</a></div>
+			</div>
+		<nav class="footer innerwrapper">
+			<span>designed by hcav</span>
+			<ul>
+				<li ><a href= "https://github.com/hcavalle" target="_blank">github</a></li>
+				<li ><a href= "https://www.crowdfunder.com/u/9791" target="_blank">crowdfunder</a></li>
+				<li ><a href= "http://www.linkedin.com/in/harrisoncavallero" target="_blank">linkedin</a></li>
+				<li ><a href="harrison_cavallero_resume.pdf" target="_blank">resume.</a></li>
+				
+				<!--<li><a href="http://about.me/cavalleroharrison">about.me</a></li>-->
+			</ul>
+		</nav>
+	</div>
+		<!--<a href='http://monitor.us/?ref=button2'><img src='http://images.monitor.us/monbadges120-40.png' title='Monitor.us - Free website, server & network monitoring tool' border=0 /></a> -->
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src="scripts/jq.js"></script>
+<!--Google Analytics Code-->
+<script type=\"text/javascript\">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-35693608-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+</script>
+
+</html>
+<!--<a href='http://monitor.us/?ref=button2'><img src='http://images.monitor.us/monbadges120-40.png' title='Monitor.us - Free website, server & network monitoring tool' border=0 /></a> -->
