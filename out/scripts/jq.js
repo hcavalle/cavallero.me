@@ -29,13 +29,13 @@ $(document).ready(function() {
 		event.preventDefault();
 		$('a').removeClass('active');
 		$(this).addClass('active');
-		$('#content-home').load("skillsv1.html", function(response, status, xhr) {
+		/*$('#content-home').load("skillsv1.html", function(response, status, xhr) {
 		  if (status == "error") {
 		    var msg = "Sorry but there was an error: ";
 		    $("#error").html(msg + xhr.status + " " + xhr.statusText);
   			}
   		$('#content-home').fadeIn('slow');
-  		$('#recentwork').remove();
+  		$('#recentwork').remove();*/
   		});
 	});
 	//skills accordion
@@ -46,13 +46,13 @@ $(document).ready(function() {
 		event.preventDefault();
 		$('a').removeClass('active');
 		$(this).addClass('active');
-		$('#content-home').load("work.html", function(response, status, xhr) {
+		/*$('#content-home').load("work.html", function(response, status, xhr) {
 		  if (status == "error") {
 		    var msg = "Sorry but there was an error: ";
 		    $("#error").html(msg + xhr.status + " " + xhr.statusText);
   			}
   		$('#content-home').fadeIn('slow');
-  		$('#recentwork').remove();
+  		$('#recentwork').remove();*/
   		});
 	});
 

@@ -418,7 +418,7 @@ px      68    160    252    */
 	}
 	#footer ul {position:relative; display:inline-block; vertical-align:bottom; margin-left: 50%; }
 	#recentwork li, #recentwork ol{display:block;}
-	#recentwork{text-align:center;}
+	#recentwork{text-align:center; margin: 10px 10% 10px 10%;}
 	.innerwrapper, .footer, h1, h2{ width:auto; min-width:300px;}
 }
 
