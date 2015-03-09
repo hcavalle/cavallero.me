@@ -102,7 +102,7 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 .innerwrapper{
 	min-width:300px;
 	position:relative;
-	width:800px;
+	width:1200px;
 	margin: auto;
 	text-align:center;
 }
@@ -133,6 +133,7 @@ header{
 	background:#ffffff; 
 	font-family: Poiret One, helvetica, sans-serif, Georgia, serif;
 	text-align:center;
+  margin-bottom: 40px;
 }
 
 #logo{
@@ -242,6 +243,7 @@ nav.darknav a.active{
 	width:100%;
 	text-align: left;
 	bottom: 10px;
+  margin-top: 100px;
 }
 .footer a, .footer span{border-bottom:dashed 1px gray;}
 .footer{font-size: 14px; text-align:left;}

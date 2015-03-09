@@ -28,15 +28,7 @@
 	
 	</header>
 	<div class="wrapper">
-			<nav class="darknav boxshadow">
-				<div class="innerwrapper">
-					<% for page in @getCollection("html").findAll({isPage:true}).toJSON(): %>
-						<h3 class = "Georgia "><a class ="<%= if page.id is @document.id then 'active' else 'inactive' %>" id="<%= page.title %>Title" href="<%= page.url %>"><%= page.title %></a></h3> 
-					<% end %>
-					<h3 class=" Georgia"> <a href="/harrison_cavallero_resume.pdf" target="_blank">resume</a></h3>
-				</div>
-			</nav>
-			<div class="relwrapper">
+			<div class="innerwrapper">
 				<div id="content-home" class="content">
 			<!-- <h1><%= @document.title %></h1> -->
     				<%- @content %>
@@ -48,19 +40,18 @@
 	</div>			
 			
 	<div id="footer"> <!-- position ="relative" width="100%" align="center" style="margin-top: 100px; margin-bottom: 100px"> -->
-		<div class="boxshadow" id="footerAccent">
+		<div class="boxshadow" >
 				<!--top of page jquery
 					http://webdesignerwall.com/tutorials/animated-scroll-to-top -->
 					
-				<div id="top"><a href "#">Test</a></div>
 			</div>
 		<nav class="footer innerwrapper">
 			<span>designed by hcav</span>
 			<ul>
+				<li ><a href= "http://www.goodengine.co" target="_blank">goodengine</a></li>
+				<li ><a href= "http://itp.usc.edu" target="_blank">USC</a></li>
 				<li ><a href= "https://github.com/hcavalle" target="_blank">github</a></li>
-				<li ><a href= "https://www.crowdfunder.com/u/9791" target="_blank">crowdfunder</a></li>
 				<li ><a href= "http://www.linkedin.com/in/harrisoncavallero" target="_blank">linkedin</a></li>
-				<li ><a href="harrison_cavallero_resume.pdf" target="_blank">resume.</a></li>
 				
 				<!--<li><a href="http://about.me/cavalleroharrison">about.me</a></li>-->
 			</ul>
